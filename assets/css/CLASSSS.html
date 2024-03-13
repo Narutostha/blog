@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid container</title>
+<stlye>
+    .grid-container
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+    }
+    .grid-item
+    {
+        background-color: grey;
+        padding: 10px;
+
+    }
+    @media(max-width:600px)
+    {
+        .grid-container
+        {
+            grid-template-columns:1fr
+        }
+    }
+</stlye>
+<body>
+    <h1>Grid Layout Example</h1>
+    <div class="grid-container">
+        <div class="grid-item"><img src="1.png"></div>
+        <div class="grid-item"><img src="1.png"></div>
+        <div class="grid-item"><img src="1.png"></div>
+        <div class="grid-item"><img src="1.png"></div>
+        <div class="grid-item"><img src="1.png"></div>
+        <div class="grid-item"><img src="1.png"></div>
+        <div class="grid-item"><img src="1.png"></div>
+    </div>
+      as    sqa cs
+
+</body>
+
+</html>
